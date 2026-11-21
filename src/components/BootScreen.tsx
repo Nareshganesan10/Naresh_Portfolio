@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
 const bootLines = [
-  '[  OK  ] Initializing Naresh OS...',
+  '[  OK  ] Initializing Naresh...',
   '[  OK  ] Loading backend modules...',
   '[  OK  ] Mounting project workspace...',
   '[  OK  ] Establishing secure session...',

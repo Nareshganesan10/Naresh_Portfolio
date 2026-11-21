@@ -67,7 +67,7 @@ export function Terminal() {
     {
       id: 1,
       output: [
-        { kind: 'success', content: 'NAResh_OS [Version 1.0.0]' },
+        { kind: 'success', content: 'NARESH [Version 1.0.0]' },
         {
           kind: 'muted',
           content: 'This is an interactive way to explore Naresh’s work.',

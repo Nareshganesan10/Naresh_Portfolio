@@ -14,7 +14,7 @@ export default function App() {
       <AnimatePresence>{!booted && <BootScreen onComplete={finishBoot} />}</AnimatePresence>
       <motion.div className="site-content" initial={{ opacity: 0, y: 12 }} animate={booted ? { opacity: 1, y: 0 } : { opacity: 0, y: 12 }} transition={{ duration: 0.55 }}>
         <header className="topbar">
-          <a className="brand" href="#top" aria-label="Naresh OS home"><span className="brand-symbol">N<span>_</span></span><span>NAResh<span className="brand-muted">.dev</span></span></a>
+          <a className="brand" href="#top" aria-label="Naresh home"><span className="brand-symbol">N<span>_</span></span><span>NAResh<span className="brand-muted">.dev</span></span></a>
           <div className="topbar-center"><span className="status-pulse" /> PERSONAL PORTFOLIO <span className="topbar-separator"></span></div>
           <a className="topbar-github" href={profile.github} target="_blank" rel="noreferrer"><Github size={15} /> <span>GITHUB</span><ArrowUpRight size={13} /></a>
         </header>

@@ -1,4 +1,4 @@
-# Naresh OS — Static Developer Portfolio
+# Naresh — Static Developer Portfolio
 
 A terminal-first portfolio built with React, TypeScript and Vite. It runs entirely in the browser; commands are simulated and never execute on a server or local shell.
 
